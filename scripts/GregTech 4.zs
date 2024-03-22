@@ -2867,3 +2867,10 @@ distillation_tower.recipeBuilder()
     .duration(200)
     .EUt(72)
     .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs(<liquid:paraffin_wax>*1000)
+    .fluidOutputs(<liquid:creosote>*1000)
+    .EUt(129)
+    .duration(20)
+    .buildAndRegister();
